@@ -7,13 +7,12 @@ Prepare:
 - email_template.json: an email template that have some placeholders like {{TITLE}}, {{FIRST_NAME}}, {{LAST_NAME}} that need to be filled with customer information.
 - customers.csv: csv file that store customer information 
 
-How to run:
+How to run: <br>
 python send_email.py "path to template.json" "path to customer.csv" "path to output email" "path to error.csv"
-Example: 
+Example: <br>
 python send_email.py email_template.json customers.csv output_emails/ error.csv.
 
 
 Output:
-
 - User without email will be store in error.csv (same format with customers.csv).
 - Combine of customers.csv and email_template.json will be store at output_emails folder.

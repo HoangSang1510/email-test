@@ -14,5 +14,6 @@ python send_email.py email_template.json customers.csv output_emails/ error.csv.
 
 
 Output:
-User without email will be store in error.csv (same format with customers.csv).
-Combine of customers.csv and email_template.json will be store at output_emails folder.
+
+- User without email will be store in error.csv (same format with customers.csv).
+- Combine of customers.csv and email_template.json will be store at output_emails folder.
